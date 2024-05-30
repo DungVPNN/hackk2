@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    font-family: arial;
+    display: flex;
+    height: 60px;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    .main-header{
+        font-weight: 500px;
+        font-size: 16px;
+        color: white;
+        text-shadow: 0px 3px black;
+    }
+    .input-header{
+        display: flex;
+     
+    }
+    .input-header input{
+        padding: 12px;
+        width: 500px;
+        height: 7px;
+    }
+    .input-header button{
+        font-size: 24px;
+        margin-left: -26px;
+        width: 50px;
+        padding-top: 2px;
+    }
+    .cart-header{
+        display: flex;
+        gap: 5px;
+        font-size: 18px;
+        color: white;
+    }
+    .login-header{
+        color: white;
+    }
+    .register-header{
+        color:  white;
+    }
+}

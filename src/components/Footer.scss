@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    .main-footer h3{
+        margin-bottom: 20px;
+   }
+    .main-footer p{
+        color: gray;
+   }
+}
